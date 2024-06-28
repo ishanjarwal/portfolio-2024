@@ -1,6 +1,7 @@
 import { socialLinks } from '@/constants/constants'
 import Link from 'next/link'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const About = () => {
   return (

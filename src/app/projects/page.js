@@ -14,13 +14,13 @@ const Projects = () => {
 
     const router = useRouter()
     const [data, setData] = useState(null);
-    useEffect(() => {
-        if (data) {
-            document.body.style.overflow = "hidden";
-        } else {
-            document.body.style.overflow = "auto";
-        }
-    }, [data]);
+    // useEffect(() => {
+    //     if (data) {
+    //         document.body.style.overflow = "hidden";
+    //     } else {
+    //         document.body.style.overflow = "auto";
+    //     }
+    // }, [data]);
 
     const swiper_options = {
         "slides-per-view": 1,

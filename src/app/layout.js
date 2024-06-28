@@ -2,19 +2,13 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import { FaInstagram } from "react-icons/fa";
 import { IoCallOutline, IoMailOutline } from "react-icons/io5";
-import { SlSocialFacebook } from "react-icons/sl";
-import { FaXTwitter } from "react-icons/fa6";
-import { PiHandshake, PiLinkedinLogo } from "react-icons/pi";
+import { PiHandshake } from "react-icons/pi";
 import { MdOutlineFileDownload } from "react-icons/md";
-import { PiHandshakeLight } from "react-icons/pi";
 import { fadeUp, socialLinks } from "@/constants/constants";
-import Link from "next/link";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/contexts/ThemeContext";
-import Head from "next/head";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,9 +26,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Basic Meta Tags */}
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         {/* SEO Meta Tags */}
         <title>Ishan Jarwal | Freelance Full Stack Web Developer | Available for Hire</title>
@@ -75,7 +66,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <ThemeProvider>
-          <main className="w-full min-h-screen xl:h-screen h-full bg-gradient-bg dark:bg-dark-gradient-bg bg-cover bg-no-repeat bg-center flex">
+          <main className="w-full min-h-screen xl:h-screen h-full bg-[url('/backgrounds/dark.png')] dark:bg-[url('/backgrounds/light.png')] bg-cover bg-no-repeat bg-center flex">
             <div className='xl:hidden block z-[10] max-w-lg mx-auto pb-4 fixed bottom-0 left-1/2 -translate-x-1/2'>
               <Footer />
             </div>
@@ -144,8 +135,7 @@ export default function RootLayout({ children }) {
                   initial={"initial"}
                   animate={"animate"}
                   transition={{ type: "Inertia" }}
-                  className="h-full overflow-y-auto py-8 xl:px-8 px-4"
-                >
+                  className="h-full overflow-y-auto py-8 xl:px-8 px-4 ">
                   {children}
                 </motion.div>
               </div>

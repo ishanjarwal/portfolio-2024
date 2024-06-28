@@ -53,9 +53,6 @@
   scrollbar-color: #ffffff34 #ffffff16;
 }
 
-@media screen and (max-width:768px) {
-  .project_img_wrap {}
-}
 
 
 #project_section swiper-slide {
