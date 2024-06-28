@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <ThemeProvider>
-          <main className="w-full min-h-screen xl:h-screen h-full bg-[url('/backgrounds/dark.png')] dark:bg-[url('/backgrounds/light.png')] bg-cover bg-no-repeat bg-center flex">
+          <main className="w-full min-h-screen xl:h-screen h-full sm:bg-[url('/backgrounds/dark.png')] dark:sm:bg-[url('/backgrounds/light.png')] bg-[url('/backgrounds/dark_mobile.png')] dark:bg-[url('/backgrounds/light_mobile.png')] bg-cover bg-no-repeat bg-center flex">
             <div className='xl:hidden block z-[10] max-w-lg mx-auto pb-4 fixed bottom-0 left-1/2 -translate-x-1/2'>
               <Footer />
             </div>
