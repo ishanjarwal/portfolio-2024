@@ -30,9 +30,49 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <Head>
+      <head>
+        {/* Basic Meta Tags */}
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        {/* SEO Meta Tags */}
+        <title>Ishan Jarwal | Freelance Full Stack Web Developer | Available for Hire</title>
+        <meta
+          name="description"
+          content="Welcome to Ishan's portfolio. A freelance web developer specializing in creating modern, responsive, and high-performance websites. "
+        />
+        <meta
+          name="keywords"
+          content="MERN Stack developer, Freelance Web Developer, Web Development, Frontend Developer, Backend Developer, Full Stack Developer, Responsive Design, Portfolio, Ishan Jarwal"
+        />
+        <meta name="author" content="Ishan Jarwal" />
+
+        {/* Open Graph Meta Tags (for social media sharing) */}
+        <meta property="og:title" content="Ishan Jarwal | Freelance Full Stack Web Developer" />
+        <meta
+          property="og:description"
+          content="Welcome to Ishan's portfolio. A freelance web developer specializing in creating modern, responsive, and high-performance websites."
+        />
+        <meta property="og:image" content="https://jarwal.vercel.app/profile.png" />
+        <meta property="og:url" content="https://jarwal.vercel.app" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ishan Jarwal | Freelance Full Stack Web Developer" />
+        <meta
+          name="twitter:description"
+          content="Welcome to Ishan's portfolio. A freelance web developer specializing in creating modern, responsive, and high-performance websites."
+        />
+        <meta name="twitter:image" content="https://jarwal.vercel.app/profile.png" />
+
+        {/* Canonical Link */}
+        <link rel="canonical" href="https://jarwal.vercel.app" />
+
+        {/* Favicon */}
         <link rel="icon" href="http://localhost:3000/favicon.ico" type="image/x-icon" />
-      </Head>
+      </head>
       <body className={inter.className}>
         <ThemeProvider>
           <main className="w-full min-h-screen xl:h-screen h-full bg-gradient-bg dark:bg-dark-gradient-bg bg-cover bg-no-repeat bg-center flex">
