@@ -6,13 +6,13 @@ import { motion } from 'framer-motion'
 const About = () => {
   return (
     <div>
-      <h1 className='text-4xl font-bold text-white dark:text-dark-text'>🧑🏻‍💻About Me</h1>
+      <h1 className='text-4xl font-bold dark:text-white text-text'>🧑🏻‍💻About Me</h1>
       <p className='text-text-muted dark:text-dark-text-muted text-lg mt-2'>
         Hi, I’m Ishan, a passionate Full Stack Developer based out of Jaipur with over 2 years of experience in building dynamic and responsive web applications. I specialize in JavaScript, React, Next, Node.js, and have a keen interest in modern web technologies.
       </p>
       <div className='mt-8'>
         <div>
-          <h2 className='text-2xl  font-bold text-white dark:text-dark-text'>
+          <h2 className='text-2xl  font-bold dark:text-white text-text'>
             ✍🏻Acedemics and Qualifications
           </h2>
           <p className='text-text-muted dark:text-dark-text-muted text-lg mt-4'>
@@ -21,7 +21,7 @@ const About = () => {
           </p>
         </div>
         {/* <div className='mt-4'>
-                    <h2 className='text-2xl  font-bold text-white dark:text-dark-text'>
+                    <h2 className='text-2xl  font-bold dark:text-white text-text'>
                         🎖️Achivements and Certificates
                     </h2>
                     <p className='text-text-muted dark:text-dark-text-muted text-lg mt-4'>
@@ -32,7 +32,7 @@ const About = () => {
                     </p>
                 </div> */}
         <div className='mt-4'>
-          <h2 className='text-2xl  font-bold text-white dark:text-dark-text'>
+          <h2 className='text-2xl  font-bold dark:text-white text-text'>
             💪🏻Hobbies and Personal Life
           </h2>
           <p className='text-text-muted dark:text-dark-text-muted text-lg mt-4'>
@@ -43,7 +43,7 @@ const About = () => {
           </p>
         </div>
         <div className='mt-4'>
-          <h2 className='text-2xl  font-bold text-white dark:text-dark-text'>
+          <h2 className='text-2xl  font-bold dark:text-white text-text'>
             🔗Where can you find me ?
           </h2>
           <p className='text-text-muted dark:text-dark-text-muted text-lg mt-4'>

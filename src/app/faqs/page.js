@@ -36,7 +36,7 @@ const FAQS = () => {
 
     return (
         <div>
-            <h1 className='text-4xl font-bold text-white dark:text-dark-text'>❓Some questions I get asked</h1>
+            <h1 className='text-4xl font-bold text-text dark:text-white'>❓Some questions I get asked</h1>
             <div className='mt-8 pb-12 flex flex-col space-y-8'>
                 {faqAccordion.map((el, idx) =>
                     <AccordionItem title={el.title} data={el.data} onClick={() => { handleClick(idx) }} isOpen={activeIndex === idx} />

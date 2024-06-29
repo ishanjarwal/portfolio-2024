@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <ThemeProvider>
-          <main className="w-full min-h-screen xl:h-screen h-full sm:bg-[url('/backgrounds/dark.png')] dark:sm:bg-[url('/backgrounds/light.png')] bg-[url('/backgrounds/dark_mobile.png')] dark:bg-[url('/backgrounds/light_mobile.png')] bg-cover bg-no-repeat bg-center flex">
+          <main className="w-full min-h-screen xl:h-screen h-full sm:bg-[url('/backgrounds/light.png')] dark:sm:bg-[url('/backgrounds/dark.png')] bg-[url('/backgrounds/light_mobile.png')] dark:bg-[url('/backgrounds/dark_mobile.png')] bg-cover bg-no-repeat bg-center flex">
             <div className='xl:hidden block z-[10] max-w-lg mx-auto pb-4 fixed bottom-0 left-1/2 -translate-x-1/2'>
               <Footer />
             </div>
@@ -112,7 +112,7 @@ export default function RootLayout({ children }) {
                 </div>
                 <div className="mt-8 flex justify-between space-x-2">
                   <a href={"mailto:ishan.professional01@gmail.com"}
-                    className="flex justify-center items-center space-x-2 w-full py-3 bg-pri text-text rounded-lg self-baseline outline-pri outline outline-1">
+                    className="flex justify-center items-center space-x-2 w-full py-3 bg-pri text-white rounded-lg self-baseline outline-pri outline outline-1">
                     <span className="text-lg"><PiHandshake /></span>
                     <span className="text-sm font-bold">Hire Me</span>
                   </a>

@@ -23,7 +23,7 @@ const AccordionItem = ({ title, data, isOpen, onClick }) => {
         <div>
             <button
                 onClick={onClick}
-                className={`${isOpen ? "bg-white/15 dark:bg-white text-white dark:text-dark-text hover:text-white hover:bg-white/15 rounded-t-xl" : "bg-white/10 dark:bg-white dark:text-dark-text text-text hover:text-white hover:bg-white/15 rounded-xl"} group relative w-full py-6 px-8 text-lg font-bold duration-150`}
+                className={`${isOpen ? "bg-white dark:bg-background text-text dark:text-white  rounded-t-xl" : "bg-white/10 dark:bg-white/10 dark:text-dark-text text-text rounded-xl"} group relative w-full py-6 px-8 text-lg font-bold duration-150`}
             >
                 <span className={`${isOpen ? "bg-white text-black shadow-lg" : "bg-pri text-white"} absolute z-[2] bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-12 h-12 rounded-full text-xl flex justify-center items-center duration-150 group-hover:bg-white group-hover:text-black`}>
                     <motion.span

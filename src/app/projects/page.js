@@ -8,6 +8,7 @@ import { TbLivePhoto } from "react-icons/tb";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { useRouter } from 'next/navigation';
 import { register } from 'swiper/element/bundle';
+import Link from 'next/link';
 register();
 
 const Projects = () => {
@@ -32,7 +33,7 @@ const Projects = () => {
     return (
         <div id='project_section'>
             {data && <ProjectModal data={data} setData={setData} />}
-            <h1 className='text-4xl font-bold text-white dark:text-dark-text'>🚀Projects</h1>
+            <h1 className='text-4xl font-bold text-text dark:text-white'>🚀Projects</h1>
             <p className='text-text-muted dark:text-dark-text-muted mt-2'>
                 A showcase of my diverse projects, highlighting my skills in web development, UI Designing, and creative problem-solving.
             </p>
@@ -77,16 +78,22 @@ const Projects = () => {
                                     <span>Case Study</span>
                                 </button>
                                 {item.live &&
-                                    <button className='py-2 px-6 text-black bg-white rounded-lg flex justify-center items-center space-x-2'>
+                                    <a
+                                        target='_blank'
+                                        href={item.live}
+                                        className='py-2 px-6 text-black bg-white rounded-lg flex justify-center items-center space-x-2'>
                                         <span className='text-red-500 text-lg'><TbLivePhoto /></span>
                                         <span>View Live</span>
-                                    </button>
+                                    </a>
                                 }
                                 {item.github &&
-                                    <button className='py-2 px-6 text-black bg-white rounded-lg flex justify-center items-center space-x-2'>
+                                    <a
+                                        target='_blank'
+                                        href={item.github}
+                                        className='py-2 px-6 text-black bg-white rounded-lg flex justify-center items-center space-x-2'>
                                         <span className='text-black text-lg'><FaGithub /></span>
                                         <span>Github</span>
-                                    </button>
+                                    </a>
                                 }
                             </div>
                         </div>

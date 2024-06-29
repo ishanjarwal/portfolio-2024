@@ -58,8 +58,8 @@ const Contact = () => {
 
     return (
         <div>
-            <h1 className='text-4xl font-bold text-white dark:text-dark-text dark:text-dark'>🤙🏻Connect with Me</h1>
-            <p className='text-text-muted dark:text-dark-text-muted dark:text-dark-text-muted mt-2'>
+            <h1 className='text-4xl font-bold text-text dark:text-white'>🤙🏻Connect with Me</h1>
+            <p className='text-text-muted dark:text-dark-text-muted mt-2'>
                 Reach out to connect or collaborate on exciting projects and opportunities
             </p>
             <div className='mt-8'>
@@ -69,7 +69,7 @@ const Contact = () => {
                             type="text"
                             onChange={(e) => { setFormData(prev => ({ ...prev, name: e.target.value })) }}
                             value={formData.name}
-                            className='peer text-white dark:text-dark-text py-4 px-6 bg-transparent w-full outline-none'
+                            className='peer text-text dark:text-dark-text py-4 px-6 bg-transparent w-full outline-none'
                             placeholder=' '
                         />
                         <label className='absolute text-text-muted dark:text-dark-text-muted pointer-events-none transform -top-6  translate-y-0 left-2 scale-75 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:scale-100 peer-focus:-top-6 peer-focus:left-2 peer-focus:scale-75 peer-focus:translate-y-0 duration-300 origin-left'>
@@ -81,7 +81,7 @@ const Contact = () => {
                             type="text"
                             onChange={(e) => { setFormData(prev => ({ ...prev, email_phone: e.target.value })) }}
                             value={formData.email_phone}
-                            className='peer text-white dark:text-dark-text py-4 px-6 bg-transparent w-full outline-none'
+                            className='peer text-text dark:text-dark-text py-4 px-6 bg-transparent w-full outline-none'
                             placeholder=' '
                         />
                         <label className='absolute text-text-muted dark:text-dark-text-muted pointer-events-none transform -top-6  translate-y-0 left-2 scale-75 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:scale-100 peer-focus:-top-6 peer-focus:left-2 peer-focus:scale-75 peer-focus:translate-y-0 duration-300 origin-left'>
@@ -90,7 +90,7 @@ const Contact = () => {
                     </div>
                     <div className='col-span-2 relative bg-background dark:bg-dark-background rounded-lg shadow-lg'>
                         <Listbox value={selectedOption} onChange={setSelectedOption}>
-                            <ListboxButton className={'py-4 px-6 flex justify-between items-center relative text-white dark:text-dark-text w-full text-start'}>
+                            <ListboxButton className={'py-4 px-6 flex justify-between items-center relative text-text dark:text-dark-text w-full text-start'}>
                                 <span>{selectedOption.option}</span>
                                 <span>
                                     <IoIosArrowDown />
@@ -113,7 +113,7 @@ const Contact = () => {
                             type="text"
                             onChange={(e) => { setFormData(prev => ({ ...prev, message: e.target.value })) }}
                             value={formData.message}
-                            className='peer text-white dark:text-dark-text py-4 px-6 bg-transparent w-full outline-none'
+                            className='peer text-text dark:text-dark-text py-4 px-6 bg-transparent w-full outline-none'
                             placeholder=' '
                             style={{ minHeight: "120px", maxHeight: "200px" }}
                         />

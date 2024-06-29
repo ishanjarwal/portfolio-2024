@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff18;
-  --dark-background: #ffffff91;
+  --dark-background: #ffffff18;
+  --background: #ffffff91;
   --pri: #a200ff;
-  --text: #ffffffbb;
-  --dark-text: #3b3b3b;
-  --text-muted: #ffffff3f;
-  --dark-text-muted: #606060;
-  --border: #ffffff29;
-  --dark-border: #ffffffd1;
-  --gradient-bg: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, #1C0026 40%, #0D0028 100%);
-  --dark-gradient-bg: linear-gradient(45deg, rgb(255, 207, 243) 0%, #edbdff 40%, #8b50ff 100%);
+  --dark-text: #ffffffbb;
+  --text: #3b3b3b;
+  --dark-text-muted: #ffffff3f;
+  --text-muted: #606060;
+  --dark-border: #ffffff29;
+  --border: #ffffffd1;
+  --dark-gradient-bg: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, #1C0026 40%, #0D0028 100%);
+  --gradient-bg: linear-gradient(45deg, rgb(255, 207, 243) 0%, #edbdff 40%, #8b50ff 100%);
 }
 
 @media (prefers-color-scheme: dark) {

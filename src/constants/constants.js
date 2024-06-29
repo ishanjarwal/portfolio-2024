@@ -313,7 +313,7 @@ export const projects = [
             "Stripe payment integration",
         ],
         live: null,
-        github: "github.com/ishanjarwal/mern-sneaker-store"
+        github: "https://www.github.com/ishanjarwal/mern-sneaker-store"
     },
     {
         title: "My Portfolio (2024 Version)",
@@ -329,7 +329,7 @@ export const projects = [
             "portfolio_1.png", "portfolio_2.png", "portfolio_3.png", "portfolio_4.png", "portfolio_5.png", "portfolio_6.png", "portfolio_7.png", "portfolio_8.png", "portfolio_9.png", "portfolio_10.png", "portfolio_11.png"
         ],
         live: "https://jarwal.vercel.app",
-        github: "github.com/ishanjarwal/portfolio-2024"
+        github: "https://www.github.com/ishanjarwal/portfolio-2024"
     },
     {
         title: "Travel Booking Web App",
@@ -344,7 +344,7 @@ export const projects = [
             "travel_1.png", "travel_2.png", "travel_3.png", "travel_4.png", "travel_5.png", "travel_6.png", "travel_7.png", "travel_8.png", "travel_9.png", "travel_10.png", "travel_11.png", "travel_12.png",
         ],
         live: null,
-        github: "github.com/ishanjarwal/tabclub",
+        github: "https://www.github.com/ishanjarwal/tabclub",
     },
     {
         title: "Full Stack Blog Application",
@@ -365,7 +365,7 @@ export const projects = [
             "SEO optimized url for blogpost"
         ],
         live: null,
-        github: "https://github.com/ishanjarwal/fullstack-mern-blog-application"
+        github: "https://www.github.com/ishanjarwal/fullstack-mern-blog-application"
     },
     {
         title: "Digital Agency Website for Lead Generation",
@@ -402,7 +402,7 @@ export const projects = [
             "old_portfolio_1.png", "old_portfolio_2.png", "old_portfolio_3.png", "old_portfolio_4.png", "old_portfolio_5.png", "old_portfolio_6.png", "old_portfolio_7.png"
         ],
         live: "https://old-jarwal.vercel.app",
-        github: "github.com/ishanjarwal/portfolio"
+        github: "https://www.github.com/ishanjarwal/portfolio"
     },
     {
         title: "Gym Website Theme",
@@ -418,7 +418,7 @@ export const projects = [
             "gym_1.png", "gym_2.png", "gym_3.png", "gym_4.png", "gym_5.png", "gym_6.png",
         ],
         live: null,
-        github: "github.com/ishanjarwal/gym-theme-2024"
+        github: "https://www.github.com/ishanjarwal/gym-theme-2024"
     }
 ];
 
