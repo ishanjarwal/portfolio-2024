@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
             <div className="max-w-[1600px] w-full mx-auto xl:py-12 xl:pb-12 pb-24 h-[min(100vh, 500px)] xl:p-12 p-4  flex justify-between items-start xl:space-x-12 xl:space-y-0 space-y-4 xl:flex-row flex-col">
               <div className="rounded-3xl flex flex-col border-2 border-border dark:border-dark-border xl:h-full w-full bg-background dark:bg-dark-background xl:flex-1 p-8 xl:max-w-80 m-0">
                 <div className="flex justify-between items-start space-x-4">
-                  <div className="aspect-square w-24 rounded-xl bg-background dark:bg-dark-background overflow-hidden">
+                  <div className="aspect-square w-24 rounded-xl bg-black dark:bg-black overflow-hidden">
                     <img
                       src="profile.png"
                       alt=""
