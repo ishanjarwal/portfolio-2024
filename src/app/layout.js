@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -65,6 +66,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="http://localhost:3000/favicon.ico" type="image/x-icon" />
       </head>
       <body className={inter.className}>
+        <Analytics />
         <ThemeProvider>
           <main className="w-full min-h-screen xl:h-screen h-full sm:bg-[url('/backgrounds/light.png')] dark:sm:bg-[url('/backgrounds/dark.png')] bg-[url('/backgrounds/light_mobile.png')] dark:bg-[url('/backgrounds/dark_mobile.png')] bg-cover bg-no-repeat bg-center flex">
             <div className='xl:hidden block z-[10] max-w-lg mx-auto pb-4 fixed bottom-0 left-1/2 -translate-x-1/2'>
