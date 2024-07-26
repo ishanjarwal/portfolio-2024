@@ -289,7 +289,7 @@ export const skills = [
 export const projects = [
     {
         title: "Full Stack Ecommerce Platform with Admin Panel",
-        description: "A comprehensive ecommerce platform featuring a user-friendly interface, integrated payment gateways, and a powerful admin panel for managing products, orders, and users.",
+        description: "A comprehensive ecommerce platform featuring a user-friendly interface, integrated payment gateway, and a powerful admin panel for managing products, orders, and users.",
         technologies: [
             "ReactJS", "NodeJS", "Redux Toolkit", "HeadlessUI", "Express", "MongoDB", "Stripe", "Multer", "Express-Validator", "TailwindCSS", "FancyBoxUI", "SwiperJS", "Axios", "Bcrypt", "mongoose"
         ],
@@ -312,7 +312,7 @@ export const projects = [
             "Import existing product feature",
             "Stripe payment integration",
         ],
-        live: null,
+        live: "https://mern-sneaker-store.vercel.app",
         github: "https://www.github.com/ishanjarwal/mern-sneaker-store"
     },
     {
